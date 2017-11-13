@@ -2,7 +2,7 @@
 # Description: This method performs SmartState analysis on a VM
 #
 # Sample Updated
-# Puts a test
+
 vm = $evm.root['vm']
 unless vm.nil?
   ems = vm.ext_management_system
